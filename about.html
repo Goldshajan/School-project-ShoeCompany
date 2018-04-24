@@ -1,92 +1,16 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            width: 200px;
-            background-color: #f1f1f1;
-        }
-
-        li a {
-            display: block;
-            color: #000;
-            padding: 8px 16px;
-            text-decoration: none;
-        }
-
-        li a.active {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        li a:hover:not(.active) {
-            background-color: rgb(105, 104, 104);
-            color: white;
-        }
-
-        #shajan {
-            float: left;
-        }
-        
-
-        #mycolor {
-            width: 150px;
-            height: 150px;
-            background-color: aqua;
-            border-radius: 150px;
-            right:0px;
-            top:100px;
-            position:absolute;    
-        }
-
-        
-        #parent{
-            position:relative;
-            width:300px;
-            height: 300px;
-            
-        }
-
-    </style>
-
- 
-
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-
 <body>
-    <h2>navigation bar</h2>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
 </body>
-<nav id="shajan">
-    <ul>
-        <li>
-            <a href="gold-Home.html">Home</a>
-        </li>
-        <li>
-            <a href="gold-news.html">News</a>
-        </li>
-        <li>
-            <a href="gold-conduct.html">Contact</a>
-        </li>
-        <li>
-            <a class="active" href="gold-about.html">About</a>
-        </li>
-    </ul>
-
-    <nav>
-        <div id="parent">
-            <img src="golddog.jpg" alt="dogimage" height="300px" width="300px">
-            <div id="mycolor"></div>
-        </div>
-
-        </head>
-
-        <body>
-
-        </body>
-
 </html>
