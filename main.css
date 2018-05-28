@@ -19,9 +19,72 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgb(179, 174, 174);
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color:rgb(240, 8, 8);
 }
+table,
+th,
+td {
+  border: 2px solid black;
+}
+
+.shajan{
+    padding:200;
+    text-align: center;
+
+    height: 100px;
+    background: linear-gradient(red, yellow, blue);
+   
+}
+
+
+.products{
+    color: red;
+}
+
+ body {
+        background-color: rgb(253, 253, 251);
+    }
+
+ div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+    
+div.gallery:hover {
+        border: 3px solid rgb(7, 4, 4);
+    }
+    
+div.gallery img {
+        width: 100%;
+       
+        ;
+}
+    
+div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    
+    .box  { 
+        width: 350px;
+        height: 350px;
+        padding: 50px;
+        border: 5px solid red;
+    }
+
+    
+   
+
+    #intro{
+        display: inline;
+        color: red;
+    }
+      
+     
