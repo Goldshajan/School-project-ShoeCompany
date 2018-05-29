@@ -19,17 +19,13 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(179, 174, 174);
+    background-color: rgb(119, 116, 116);
 }
 
 .active {
-    background-color:rgb(240, 8, 8);
+    background-color:rgb(255, 0, 0);
 }
-table,
-th,
-td {
-  border: 2px solid black;
-}
+
 
 .shajan{
     padding:200;
@@ -67,24 +63,41 @@ div.gallery img {
 }
     
 div.desc {
-        padding: 15px;
+    display: flex;
+        
+        align-content: center;
         text-align: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+
     }
+    .box {
+        display: flex;
+        background-color: rgb(216, 207, 207);
+        width: 300px;
+        border: 5px solid rgb(9, 10, 9);
+        padding: 0px;
+        margin: 0px;
+        height: 325%;
+        justify-content: flex-end;
+        
 
     
-    .box  { 
-        width: 350px;
-        height: 350px;
-        padding: 50px;
-        border: 5px solid red;
+        
     }
 
+    .myFlexContainer{
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    
+
+    
     
    
 
-    #intro{
-        display: inline;
-        color: red;
-    }
       
      
