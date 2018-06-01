@@ -32,7 +32,7 @@ li a:hover:not(.active) {
     text-align: center;
 
     height: 100px;
-    background: linear-gradient(red, yellow, blue);
+    background: linear-gradient(rgb(216, 13, 13), rgb(221, 32, 19), rgb(0, 0, 0));
    
 }
 
@@ -44,8 +44,7 @@ li a:hover:not(.active) {
  body {
         background-color: rgb(253, 253, 251);
     }
-
- div.gallery {
+    div.gallery {
         margin: 5px;
         border: 1px solid #ccc;
         float: left;
@@ -59,8 +58,12 @@ div.gallery:hover {
 div.gallery img {
         width: 100%;
        
-        ;
+        
 }
+
+
+        
+    
     
 div.desc {
     display: flex;
@@ -70,30 +73,30 @@ div.desc {
         align-items: center;
         flex-direction: column;
         
-        
 
-    }
-    .box {
-        display: flex;
-        background-color: rgb(216, 207, 207);
-        width: 300px;
-        border: 5px solid rgb(9, 10, 9);
-        padding: 0px;
-        margin: 0px;
-        height: 325%;
-        justify-content: flex-end;
-        
-
-    
-        
     }
 
     .myFlexContainer{
         display:flex;
-        justify-content: space-around;
+        justify-content: center;
+        padding: 25px;
+        background-color: rgb(219, 84, 84);
+
+    }
+    myhomephoto{
+    
+        width: 100%;
+    }
+    .homecontainer {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(234, 241, 241);
     }
     
-    
+    .heading {
+        display : flex;
+        justify-content: center;
+    }
 
     
     

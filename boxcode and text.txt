@@ -1,0 +1,21 @@
+<div class="box">INTRODUCTION Since its foundation in 2004, HUB has remained focused on its main objective, to only design high quality
+    footwear that is truly timeless. The brand represents an athletic, metropolitan lifestyle, combined with a clean, minimalist
+    appearance. An attitude and style that is expressed clearly throughout each collection. HUB’s founder Huub van Boeckel,
+    a former professional tennis player, never lost his strong mentality or his love for sneakers – which inspired him to
+    start developing his own sneaker. Each season, these characteristics are closely observed and will serve as inspiration
+    to reinvent some of the classic designs, resulting in a must-have for the next season.
+  </div>
+
+
+
+
+code:- .box {
+        display: flex;
+        background-color: rgb(216, 207, 207);
+        width: 300px;
+        border: 5px solid rgb(9, 10, 9);
+        padding: 0px;
+        margin: 0px;
+        height: 325%;
+        justify-content: flex-end;
+        
