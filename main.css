@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     overflow: hidden;
     background-color: #333;
 }
@@ -23,7 +23,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(25, 123, 235);
 }
 
 
@@ -32,7 +32,7 @@ li a:hover:not(.active) {
     text-align: center;
 
     height: 100px;
-    background: linear-gradient(rgb(216, 13, 13), rgb(221, 32, 19), rgb(0, 0, 0));
+    background: linear-gradient(rgb(9, 111, 243), rgb(19, 56, 221), rgb(255, 255, 255));
    
 }
 
@@ -61,10 +61,6 @@ div.gallery img {
         
 }
 
-
-        
-    
-    
 div.desc {
     display: flex;
         
@@ -80,7 +76,7 @@ div.desc {
         display:flex;
         justify-content: center;
         padding: 25px;
-        background-color: rgb(219, 84, 84);
+        background-color: rgb(28, 195, 236);
 
     }
     myhomephoto{
@@ -100,20 +96,31 @@ div.desc {
 
     .myFlexContainer2 {
         display: flex;
-        background-color: #333;
+        background-color: rgb(8, 196, 243);
         padding: 25px;
         justify-content: space-around;
 
     }
 
-    downphotos {
+    .downphotos {
         display: flex;
-        justify-content: flex-start;
+        align-items: flex-end;
     }
     
-    homwdown1 {
+    .homedown1 {
         display: flex;
-        flex-direction: column-reverse;
-    }
+        flex-direction: column;
+        justify-content: space-around;
+        
+        background-color: black;
 
+    }
+    .boxdown {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 20%;
+        justify-content: center;
+        background-color: aliceblue;
+    }
       
