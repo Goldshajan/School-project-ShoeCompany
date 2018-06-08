@@ -98,9 +98,17 @@ div.desc {
         justify-content: center;
     }
 
-    
+    .myFlexContainer2 {
+        display: flex;
+        background-color: #333;
+        padding: 25px;
+    }
+
+    downphotos {
+        display: flex;
+        justify-content: flex-start;
+    }
     
    
 
       
-     
