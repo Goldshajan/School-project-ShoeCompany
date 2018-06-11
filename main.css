@@ -76,7 +76,7 @@ div.desc {
         display:flex;
         justify-content: center;
         padding: 25px;
-        background-color: rgb(28, 195, 236);
+        background-color: rgb(245, 240, 238);
 
     }
     myhomephoto{
@@ -96,7 +96,7 @@ div.desc {
 
     .myFlexContainer2 {
         display: flex;
-        background-color: rgb(8, 196, 243);
+        background-color: rgb(226, 50, 19);
         padding: 25px;
         justify-content: space-around;
 
@@ -124,3 +124,35 @@ div.desc {
         background-color: aliceblue;
     }
       
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: bisque;
+    }
+
+    .intro h4    {
+        margin-bottom: 0;
+        
+    }
+    .downintrophoto {
+            display: flex;
+            padding: 5px;
+            background-color: rgb(219, 231, 233);
+            justify-content:space-around;
+           
+    }
+    .down2 {
+        display: flex;
+        align-items: flex-end;
+        
+    }
+    .down3 {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: crimson;
+    }
+    
