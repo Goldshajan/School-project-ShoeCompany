@@ -19,11 +19,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(119, 116, 116);
+    background-color: rgb(202, 208, 209);
 }
 
 .active {
-    background-color:rgb(25, 123, 235);
+    background-color:rgb(12, 135, 236);
 }
 
 
@@ -32,7 +32,7 @@ li a:hover:not(.active) {
     text-align: center;
 
     height: 100px;
-    background: linear-gradient(rgb(9, 111, 243), rgb(19, 56, 221), rgb(255, 255, 255));
+    background: linear-gradient(rgb(1, 236, 253), rgb(3, 220, 248), rgb(255, 255, 255));
    
 }
 
@@ -76,7 +76,7 @@ div.desc {
         display:flex;
         justify-content: center;
         padding: 25px;
-        background-color: rgb(245, 240, 238);
+        background-color: rgb(195, 208, 231);
 
     }
     myhomephoto{
@@ -86,7 +86,7 @@ div.desc {
     .homecontainer {
         display: flex;
         justify-content: center;
-        background-color: rgb(234, 241, 241);
+        background-color: rgb(173, 222, 241);
     }
     
     .heading {
@@ -96,7 +96,7 @@ div.desc {
 
     .myFlexContainer2 {
         display: flex;
-        background-color: rgb(226, 50, 19);
+        background-color: rgb(127, 242, 250);
         padding: 25px;
         justify-content: space-around;
 
@@ -138,7 +138,7 @@ div.desc {
     }
     .downintrophoto {
             display: flex;
-            padding: 5px;
+            padding: 10px;
             background-color: rgb(219, 231, 233);
             justify-content:space-around;
            
@@ -153,6 +153,13 @@ div.desc {
         text-align: center;
         flex-direction: column;
         justify-content: center;
-        background-color: crimson;
+        background-color: rgb(255, 255, 253);
     }
-    
+    .downbox {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: rgb(128, 207, 207);
+      
+    }
