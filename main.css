@@ -162,16 +162,19 @@ div.desc {
     td, th {
         text-align: left;
         padding: 8px;
+        color: rgb(0, 0, 0);
     }
     
     tr:nth-child(even) {
-        background-color: #e3e4e9;
+        background-color: #fdfdfd;
     }
     .table1 {
         display: flex;
         padding: 10px;
-        background-color: rgb(16, 203, 236);
-      
+        background-color: rgb(232, 234, 235);
+        border: 2px solid rgb(5, 4, 78);
+        padding: 10px;
+        border-radius: 25px;
 
     }
     .subcribe {
@@ -183,14 +186,15 @@ div.desc {
     }
     .secondbox {
         display: flex;
-        background-color: rgb(91, 238, 62);
-        flex-direction: row;
-        justify-content: space-between;
+
+      background-color: rgb(164, 231, 147);
+      flex-direction: row;
+      justify-content: space-between; 
         padding: 10px;
         border: 5px solid rgb(0, 0, 0);
         padding: 10px;
         border-top-left-radius: 25px;
-        box-shadow: 10px 15px #888888;
+        box-shadow: 10px 15px #15f705;
       
     }
 
@@ -199,4 +203,77 @@ div.desc {
         flex-direction: column;
     }
   
+  .thirdbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+  }
+  .thirdbox2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-decoration: underline;
+      text-decoration-line: underline;
+     
+     
+  }
+
+.aboutpic {
+    display: flex;
     
+}
+.doc1 {
+    display:flex;
+    
+    flex-direction: column;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 50px 20px;
+        
+   
+}
+.doc2 {
+    display: flex;
+    background-color: rgb(190, 248, 151);
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+.head {
+    display: flex;
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+.imageabout {
+    display: flex;
+    border: 15px solid transparent;
+    padding: 15px;
+   
+    border-image-repeat: stretch;    
+    border-image-slice: 30;
+}
+.table3 {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(123, 253, 140);
+    border: 2px solid rgb(15, 146, 3);
+    padding: 10px;
+    border-radius: 25px;
+}
+.subcribe3 {
+    display: flex;
+    color:rgb(9, 66, 9);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.subcribe1 {
+    display: flex;
+    color:rgb(7, 149, 231);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
