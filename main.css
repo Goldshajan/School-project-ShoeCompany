@@ -41,7 +41,7 @@ li a:hover:not(.active) {
     }
     
 div.gallery:hover {
-        border: 3px solid rgb(7, 4, 4);
+        border: 2px solid rgb(218, 47, 218);
     }
     
 div.gallery img {
@@ -57,8 +57,18 @@ div.desc {
         text-align: center;
         align-items: center;
         flex-direction: column;
+        background-color: rgb(148, 13, 148);
+        color: #ccc;
         
 
+    }
+    div.descs {
+        display: flex;
+        
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .myFlexContainer{
@@ -81,6 +91,10 @@ div.desc {
     .heading {
         display : flex;
         justify-content: center;
+        text-decoration: underline;
+         text-decoration-line: underline;
+}
+
     }
 
     .myFlexContainer2 {
@@ -207,6 +221,7 @@ div.desc {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      background-color: #9af194 ;
 
   }
   .thirdbox2 {
