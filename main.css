@@ -4,6 +4,7 @@ ul {
     padding: 5px;
     overflow: hidden;
     background-color: #333;
+    
 }
 
 li {
@@ -23,45 +24,50 @@ li a:hover:not(.active) {
 }
 
 
-
-
-
-.products{
-    color: red;
-}
-
  body {
+     
         background-color: rgb(253, 253, 251);
     }
-    div.gallery {
-        margin: 5px;
-        border: 1px solid #ccc;
-        float: left;
-        width: 180px;
+    div.photos:hover {
+        border: 2px solid rgb(219, 24, 170);
     }
-    
-div.gallery:hover {
-        border: 2px solid rgb(218, 47, 218);
-    }
-    
-div.gallery img {
-        width: 100%;
-       
-        
-}
-
-div.desc {
-    display: flex;
+    div.desc {
+        display: flex;
         
         align-content: center;
         text-align: center;
         align-items: center;
         flex-direction: column;
-        background-color: rgb(148, 13, 148);
-        color: #ccc;
-        
+    }
+    .myFlexContainer5{
+        display:flex;
+        justify-content: center;
+        padding: 25px;
+        background-color: rgb(236, 215, 235);
+        justify-content: space-around;
 
     }
+   
+    div.desc {
+        display: flex;
+        
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .myFlexContainer6{
+        display:flex;
+        justify-content: center;
+        padding: 25px;
+        background-color: rgb(241, 216, 239);
+        justify-content: space-around;
+
+    }
+ 
+    
+
+
     div.descs {
         display: flex;
         
@@ -76,6 +82,7 @@ div.desc {
         justify-content: center;
         padding: 25px;
         background-color: rgb(195, 208, 231);
+        
 
     }
     myhomephoto{
@@ -167,6 +174,7 @@ div.desc {
       
     }
     table {
+        
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
