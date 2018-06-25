@@ -23,7 +23,6 @@ li a:hover:not(.active) {
     background-color: rgb(202, 208, 209);
 }
 
-
  body {
      
         background-color: rgb(253, 253, 251);
@@ -65,9 +64,6 @@ li a:hover:not(.active) {
 
     }
  
-    
-
-
     div.descs {
         display: flex;
         
@@ -199,14 +195,14 @@ li a:hover:not(.active) {
     .secondbox {
         display: flex;
 
-      background-color: rgb(164, 231, 147);
+      background-color: rgb(247, 167, 167);
       flex-direction: row;
       justify-content: space-between; 
         padding: 10px;
         border: 5px solid rgb(0, 0, 0);
         padding: 10px;
         border-top-left-radius: 25px;
-        box-shadow: 10px 15px #15f705;
+        box-shadow: 15px 15px #eb2121;
       
     }
 
@@ -219,7 +215,7 @@ li a:hover:not(.active) {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      background-color: #9af194 ;
+      background-color: #fa5757 ;
 
   }
   .thirdbox2 {
@@ -228,8 +224,6 @@ li a:hover:not(.active) {
       justify-content: center;
       text-decoration: underline;
       text-decoration-line: underline;
-     
-     
   }
 
 .aboutpic {
@@ -249,7 +243,7 @@ li a:hover:not(.active) {
 }
 .doc2 {
     display: flex;
-    background-color: rgb(190, 248, 151);
+    background-color: rgb(226, 105, 105);
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
@@ -289,13 +283,13 @@ li a:hover:not(.active) {
 .table3 {
     display: flex;
     padding: 10px;
-    background-color: rgb(123, 253, 140);
-    border: 2px solid rgb(15, 146, 3);
+    background-color: rgb(245, 106, 106);
+    border: 2px solid rgb(241, 6, 6);
     padding: 10px;
     border-radius: 25px;
 }
 
-}
+
 .subcribe1 {
     display: flex;
     color:rgb(7, 149, 231);
@@ -314,7 +308,7 @@ li a:hover:not(.active) {
 }
 .subcribe3 {
     display: flex;
-    color:rgb(9, 66, 9);
+    color:rgb(173, 17, 17);
     text-align: center;
     flex-direction: column;
     justify-content: center;
