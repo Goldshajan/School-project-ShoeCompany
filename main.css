@@ -49,7 +49,6 @@ li a:hover:not(.active) {
    
     div.desc {
         display: flex;
-        
         align-content: center;
         text-align: center;
         align-items: center;
@@ -116,7 +115,6 @@ li a:hover:not(.active) {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        
         background-color: black;
 
     }
@@ -145,8 +143,7 @@ li a:hover:not(.active) {
             display: flex;
             padding: 10px;
             background-color: rgb(219, 231, 233);
-            justify-content:space-around;
-           
+            justify-content:space-around; 
     }
     .down2 {
         display: flex;
@@ -203,7 +200,6 @@ li a:hover:not(.active) {
         padding: 10px;
         border-top-left-radius: 25px;
         box-shadow: 15px 15px #eb2121;
-      
     }
 
     .LeftSide{
